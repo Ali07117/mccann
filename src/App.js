@@ -85,13 +85,14 @@ function App() {
         start:"top 0%",
         // markers:true,
         // end:"top -200%",
-        end: "+=3000",
+        end: "+=2000",
       }
     })
 
     tl.from(".upperimg",{
-      y:2000,
-      stagger:2,
+      y:700,
+      stagger:0.5,
+      // opacity:0
       // ease:"none"
       // duration:10,
     })
@@ -101,27 +102,33 @@ function App() {
     tl.from(".showimg1",{
       y:"50%",
       x:"210%",
+      duration:1
     },"a")
     tl.from(".showimg2",{
       y:"-48%",
       x:"210%",
+      duration:1
       // opacity:0
     },"a")
     tl.from(".showimg3",{
       y:"-160%",
       x:"210%",
+      duration:1
     },"a")
     tl.from(".showimg4",{
       y:"39%",
       x:"110%",
+      duration:1
     },"a")
     tl.from(".showimg5",{
      y:"-70%",
       x:"110%",
+      duration:1
     },"a")
     tl.from(".showimg6",{
       y:"-159%",
       x:"110%",
+      duration:1
     },"a")
     tl.from(".showimg7",{
       y:"52%",
@@ -129,21 +136,25 @@ function App() {
     },"a")
     tl.from(".showimg8",{
       y:"-35%",
+      duration:1
       // x:"20vw",---
     },"a")
     tl.from(".showimg9",{
-      y:"-160%"
+      y:"-160%",
+      duration:1
       // x:"20vw",---
       
     },"a")
     tl.from(".showimg10",{
       y:"35%",
       x:"-100%",
+      duration:1
 
     },"a")
     tl.from(".showimg11",{
       y:"-60%",
       x:"-100%",
+      duration:1
     },"a")
     tl.from(".showimg12",{
       y:"-180%",
@@ -152,15 +163,18 @@ function App() {
     tl.from(".showimg13",{
       y:"45%",
       x:"-220%",
+      duration:1
     },"a")
     tl.from(".showimg14",{
       y:"-50%",
       x:"-220%",
+      duration:1
     },"a")
     tl.from(".showimg15",{
       y:"-160%",
       x:"-220%",
-      scale:1.02
+      scale:1.02,
+      duration:1,
     },"a")
     // tl.to(".page2-text",{
     //   opacity:0
@@ -277,7 +291,7 @@ function App() {
       </div>
     </div>
     <div className="page2 min-h-[100vh] relative w-[100%] bg-[#000] overflow-hidden -mt-[300px]">
-    <div className='h-[100%] w-[100%] opacityy0 z-[2] bg-[#000] absolute top-[52.5%] z-[] left-[50.025%] translate-x-[-50%] translate-y-[-50%]'></div>
+    <div className='h-[100vh] w-[100%] opacityy0 z-[2] bg-[#000] absolute top-[0] z-[] left-[0] '></div>
       <div className='  leading-[120px]  '>
       <div className='-bg-[red]  overflow-y-hidden h-[110px] z-[10] absolute top-[38%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
         <h1 className=' page2-text opacityy0 text-nowrap	 text-[80px] text- -pt-[40px] font-[900] text-[white]'>How do you</h1>
@@ -291,7 +305,7 @@ function App() {
       </div>
       <div className=' upperimg-container-cont absolute z-[10] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] mt-[30px]'>
       <div className='upperimg-container h-[410px] w-[324px] relative'>
-        <img className=' upperimg opacityy0 absolute h-[100%] w-[100%] object-cover' src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <img className=' upperimg opacityy0 absolute h-[100%] w-[100%] object-cover' src="https://images.unsplash.com/photo-1597071058713-6776461d7737?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         <img className=' upperimg opacityy0 absolute h-[100%] w-[100%] object-cover' src="https://images.unsplash.com/photo-1570158268183-d296b2892211?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         <img className=' upperimg opacityy0 absolute h-[100%] w-[100%] object-cover' src="https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
       </div>
